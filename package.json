@@ -17,6 +17,9 @@
     "tailwindcss": "^3.4.1",
     "tailwindcss-animate": "^1.0.7"
   },
+  "resolutions": {
+    "strip-ansi": "6.0.1"
+  },
   "main": "/index.js",
   "devDependencies": {},
   "browserslist": {
