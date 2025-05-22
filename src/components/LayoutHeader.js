@@ -17,7 +17,7 @@ const LayoutHeader = ({ currentPage, setCurrentPage, currentLanguage, setCurrent
     setCurrentLanguage(e.target.value);
   };
 
-  const t = translations[currentLanguage] || translations['es']; // Fallback to Spanish
+  const t = translations[currentLanguage] || translations['ca']; // Fallback to Catalan
 
   return (
     <header className="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
@@ -26,7 +26,7 @@ const LayoutHeader = ({ currentPage, setCurrentPage, currentLanguage, setCurrent
           <a href="#" onClick={() => navigateTo('home')} className="flex items-center">
             <img
               src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc01E0JVNcZ9EqsBCgLaIcfUlJ8T30Vwty5SXnr" // Logo de la empresa
-              alt="Logo DroneSolutions"
+              alt="Logo MeviDron"
               className="h-12 md:h-14 transition-transform hover:scale-105" // Aumentado el tamaño del logo
             />
           </a>
@@ -51,8 +51,8 @@ const LayoutHeader = ({ currentPage, setCurrentPage, currentLanguage, setCurrent
             value={currentLanguage}
             onChange={handleLanguageChange}
           >
-            <option value="es">Español</option>
             <option value="ca">Català</option>
+            <option value="es">Español</option>
             <option value="en">English</option>
             <option value="fr">Français</option>
           </select>
@@ -83,8 +83,8 @@ const LayoutHeader = ({ currentPage, setCurrentPage, currentLanguage, setCurrent
               value={currentLanguage}
               onChange={handleLanguageChange}
             >
-              <option value="es">Español</option>
               <option value="ca">Català</option>
+              <option value="es">Español</option>
               <option value="en">English</option>
               <option value="fr">Français</option>
             </select>
@@ -96,5 +96,3 @@ const LayoutHeader = ({ currentPage, setCurrentPage, currentLanguage, setCurrent
 };
 
 export default LayoutHeader;
-
-// DONE

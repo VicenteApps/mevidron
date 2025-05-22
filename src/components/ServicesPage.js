@@ -10,6 +10,7 @@ const ServicesPage = ({ setCurrentPage, currentLanguage }) => {
     { id: 'inspecciones-industriales', title: t.serviceInspeccionesIndustriales, description: t.serviceInspeccionesIndustrialesDesc.split('.')[0] + '.', image: 'https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0RkRJLgj6STzbQpvUw3J8g9yKOPeqZ4xiNdIh' }, // Imagen de inspección industrial actualizada
     { id: 'vuelo-lidar', title: t.serviceVueloLiDAR, description: t.serviceVueloLiDARDesc.split('.')[0] + '.', image: 'https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0v7I6evyKJs9OrpDUz2LHG6YaodyTFNfcmRut' }, // Imagen de LiDAR/mapeo 3D actualizada
     { id: 'inspecciones-termicas', title: t.serviceInspeccionesTermicas, description: t.serviceInspeccionesTermicasDesc.split('.')[0] + '.', image: 'https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0lvFMqt8XbcAaSYNqKr0LMw3z9nWTuy4eIjix' }, // Imagen de inspección térmica actualizada
+    { id: 'modelado-3d', title: t.service3DModeling, description: t.service3DModelingDesc.split('.')[0] + '.', image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80' }, // Imagen genérica para modelado 3D
   ];
 
   return (

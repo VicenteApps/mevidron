@@ -14,10 +14,12 @@ const LegalFooter = ({ setCurrentPage, currentLanguage }) => {
           {/* Placeholder for Cookie Policy - usually a banner */}
           {/* <button onClick={() => setCurrentPage('cookie-policy')} className="hover:underline">Política de Cookies</button> */}
         </div>
-        <p>&copy; 2023 DroneSolutions Pro. {t.allRightsReserved}</p>
+        <p>&copy; 2025 MeviDron. {t.allRightsReserved}</p> {/* Actualizado el año a 2025 */}
       </div>
     </footer>
   );
 };
 
 export default LegalFooter;
+
+// DONE

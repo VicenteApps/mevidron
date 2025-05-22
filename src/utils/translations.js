@@ -29,13 +29,15 @@ export const translations = {
     contactFormSuccess: '¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.',
     slogan: 'Soluciones profesionales con drones: limpieza, inspección, análisis y mucho más.',
     heroSubtitle: 'Tecnología aérea de vanguardia para tus proyectos.',
+    captchaNotVerified: 'Por favor, verifica que no eres un robot.',
+
 
     // Services
     serviceLimpiezaVertical: 'Limpieza vertical con drones',
-    serviceLimpiezaVerticalDesc: 'Limpieza de fachadas y superficies verticales de forma segura, rápida y sin andamios. Ideal para edificios de difícil acceso, paneles solares y otras estructuras verticales.',
+    serviceLimpiezaVerticalDesc: 'Limpieza de fachadas y superficies verticales de forma segura, rápida y sin andamios. Ideal para edificios de difícil acceso, paneles solares y otras estructuras verticales. Ofrecemos servicios de limpieza vertical con drones en Andorra y Catalunya.',
     serviceLimpiezaVerticalBenefitsTitle: 'Ventajas:',
     serviceLimpiezaVerticalBenefits1: 'Reduce significativamente los riesgos laborales asociados a trabajos en altura.',
-    serviceLimpiezaVerticalBenefits2: 'Proceso más rápido y ágil en comparación con métodos convencionales.',
+    serviceLimpiezaVerticalBenefits2: 'Proceso más rápido y ágil en comparación con mètodos convencionales.',
     serviceLimpiezaVerticalBenefits3: 'Menor coste operativo al eliminar la necesidad de andamios.',
     serviceLimpiezaVerticalBenefits4: 'Acceso a zonas de difícil alcance.',
     serviceLimpiezaVerticalExamplesTitle: 'Ejemplos de Aplicación:',
@@ -44,7 +46,7 @@ export const translations = {
     serviceLimpiezaVerticalExamples3: 'Limpieza de silos, tanques y otras estructuras industriales verticales.',
 
     serviceFotogrametriaAerea: 'Fotogrametría aérea',
-    serviceFotogrametriaAereaDesc: 'La fotogrametría aérea con drones permite capturar imágenes superpuestas de alta resolución para crear modelos 3D detallados, mapas topográficos precisos, ortofotos y nubes de puntos. Es una herramienta esencial para la planificación, medición y análisis de terrenos y estructuras en diversos sectores.',
+    serviceFotogrametriaAereaDesc: 'La fotogrametría aérea con drones permite capturar imágenes superpuestas de alta resolución para crear modelos 3D detallados, mapas topográficos precisos, ortofotos y nubes de puntos. Es una herramienta esencial para la planificación, medición y análisis de terrenos y estructuras en diversos sectores. Realizamos fotogrametría aérea en Andorra y Catalunya.',
     serviceFotogrametriaAereaUsesTitle: 'Usos Comunes:',
     serviceFotogrametriaAereaUses1: 'Topografía y cartografía de terrenos para proyectos de construcción e ingeniería.',
     serviceFotogrametriaAereaUses2: 'Agricultura de precisión para monitoreo de cultivos y análisis de salud vegetal.',
@@ -55,7 +57,7 @@ export const translations = {
     serviceFotogrametriaAereaUses7: 'Evaluación de parcelas y desarrollo urbanístico para planificación municipal.',
 
     serviceInspeccionesIndustriales: 'Inspecciones industriales',
-    serviceInspeccionesIndustrialesDesc: 'Realizamos inspecciones detalladas de infraestructuras industriales y civiles críticas utilizando drones equipados con cámaras de alta resolución y sensores especializados. Esto permite identificar fallos, desgaste o daños sin necesidad de detener las operaciones, minimizando tiempos de inactividad y riesgos para el personal.',
+    serviceInspeccionesIndustrialesDesc: 'Realizamos inspecciones detalladas de infraestructuras industriales y civiles críticas utilizando drones equipados con cámaras de alta resolución y sensores especializados. Esto permite identificar fallos, desgaste o daños sin necesidad de detener las operaciones, minimizando tiempos de inactividad y riesgos para el personal. Ofrecemos inspecciones industriales con drones en Andorra y Catalunya.',
     serviceInspeccionesIndustrialesApplicationsTitle: 'Aplicaciones:',
     serviceInspeccionesIndustrialesApplications1: 'Inspección de torres eléctricas y líneas de transmisión.',
     serviceInspeccionesIndustrialesApplications2: 'Revisión de aerogeneradores y parques eólicos.',
@@ -65,7 +67,7 @@ export const translations = {
     serviceInspeccionesIndustrialesApplications6: 'Inspección de cubiertas, fachadas y estructuras de naves industriales.',
 
     serviceVueloLiDAR: 'Vuelo LiDAR',
-    serviceVueloLiDARDesc: 'Utilizamos tecnología LiDAR (Light Detection and Ranging) montada en drones para realizar escaneos topográficos de alta precisión. Esta tecnología permite obtener nubes de puntos densas y detalladas, incluso a través de vegetación, para crear modelos digitales del terreno (MDT) y modelos digitales de superficie (MDS) extremadamente precisos.',
+    serviceVueloLiDARDesc: 'Utilizamos tecnología LiDAR (Light Detection and Ranging) montada en drones para realizar escaneos topográficos de alta precisión. Esta tecnología permite obtener nubes de puntos densas y detalladas, incluso a través de vegetación, para crear modelos digitales del terreno (MDT) y modelos digitales de superficie (MDS) extremadamente precisos. Somos especialistas en vuelo LiDAR en Andorra y Catalunya.',
     serviceVueloLiDARIdealForTitle: 'Ideal para:',
     serviceVueloLiDARIdealFor1: 'Estudios forestales y gestión de recursos naturales.',
     serviceVueloLiDARIdealFor2: 'Planificación urbana y desarrollo de infraestructuras.',
@@ -73,20 +75,35 @@ export const translations = {
     serviceVueloLiDARIdealFor4: 'Análisis de inundaciones y gestión de riesgos.',
 
     serviceInspeccionesTermicas: 'Inspecciones térmicas',
-    serviceInspeccionesTermicasDesc: 'Utilizamos drones equipados con cámaras térmicas de alta sensibilidad para detectar diferencias de temperatura en superficies y estructuras. Esto es crucial para identificar pérdidas de energía en edificios, localizar fallos eléctricos en instalaciones, detectar puntos calientes en naves industriales o monitorear la salud de paneles solares.',
+    serviceInspeccionesTermicasDesc: 'Utilizamos drones equipados con cámaras térmicas de alta sensibilidad para detectar diferencias de temperatura en superficies y estructuras. Esto es crucial para identificar pérdidas de energía en edificios, localizar fallos eléctricos en instalaciones, detectar puntos calientes en naves industriales o monitorizar la salud de paneles solares. Realizamos inspecciones térmicas con drones en Andorra y Catalunya.',
     serviceInspeccionesTermicasApplicationsTitle: 'Aplicaciones:',
     serviceInspeccionesTermicasApplications1: 'Inspección de parques solares para identificar paneles defectuosos.',
     serviceInspeccionesTermicasApplications2: 'Revisión de instalaciones eléctricas y subestaciones.',
     serviceInspeccionesTermicasApplications3: 'Análisis de eficiencia energética en edificios.',
     serviceInspeccionesTermicasApplications4: 'Detección de fugas en tuberías o sistemas de calefacción.',
 
+    service3DModeling: 'Modelado 3D para Inmobiliarias',
+    service3DModelingDesc: 'Creamos modelos 3D detallados de terrenos y propiedades utilizando fotogrametría aérea. Estos modelos pueden ser integrados en sitios web inmobiliarios, permitiendo a los clientes realizar tours virtuales inmersivos de la parcela o propiedad desde cualquier lugar. Ofrecemos modelado 3D para inmobiliarias en Andorra y Catalunya.',
+    service3DModelingBenefitsTitle: 'Beneficios para Inmobiliarias:',
+    service3DModelingBenefits1: 'Ofrece una experiencia de visualización única y atractiva para los clientes.',
+    service3DModelingBenefits2: 'Permite a los compradores potenciales explorar la propiedad a distancia.',
+    service3DModelingBenefits3: 'Destaca las características del terreno y el entorno de manera interactiva.',
+    service3DModelingBenefits4: 'Mejora la presentación de propiedades en listados online.',
+    service3DModelingIncludesTitle: 'Incluye:',
+    service3DModelingIncludes1: 'Captura de datos aéreos con drones.',
+    service3DModelingIncludes2: 'Procesamiento de fotogrametría para generar el modelo 3D.',
+    service3DModelingIncludes3: 'Entrega del archivo 3D optimizado para web.',
+    service3DModelingIncludes4: 'Asesoramiento para la integración en tu sitio web.',
+    service3DModelingVideoPlaceholder: 'Aquí se mostrará un video del modelado 3D.',
+
+
     // Technology Page
     djiDrones: 'Drones DJI Profesionales',
     djiDronesDesc: 'Contamos con una flota de drones DJI de última generación, reconocidos mundialmente por su fiabilidad, rendimiento y capacidad de adaptación a diversas condiciones y misiones. Desde modelos compactos para inspecciones detalladas hasta plataformas robustas para cargas útiles pesadas.',
     advancedSensors: 'Sensores Avanzados',
-    advancedSensorsDesc: 'Equipamos nuestros drones con una variedad de sensores de alta precisión. Los sensores LiDAR permiten escaneos 3D detallados del terreno y estructuras. Las cámaras RGB capturan imágenes de alta resolución para fotogrametría y mapeo. Las cámaras térmicas detectan diferencias de temperatura para inspecciones energéticas y de seguridad.',
+    advancedSensorsDesc: 'Equipamos nuestros drons con una variedad de sensores de alta precisión. Los sensores LiDAR permiten escaneos 3D detallados del terreno y estructuras. Las cámaras RGB capturan imágenes de alta resolución para fotogrametria y mapeo. Las cámaras térmicas detectan diferencias de temperatura para inspecciones energéticas y de seguridad.',
     specializedSoftware: 'Software Especializado para Análisis de Datos',
-    specializedSoftwareDesc: 'La información recopilada por nuestros drones es procesada utilizando software especializado líder en la industria. Esto nos permite generar modelos 3D precisos, mapas topográficos, ortofotos, informes térmicos detallados y análisis de datos complejos para ofrecerte insights valiosos y soluciones a medida.',
+    specializedSoftwareDesc: 'La información recopilada por nuestros drons es procesada utilizando software especializado líder en la industria. Esto nos permite generar modelos 3D precisos, mapas topográficos, ortofotos, informes térmicos detallados y análisis de datos complejos para ofrecerte insights valiosos y soluciones a medida.',
   },
   ca: {
     // General
@@ -118,10 +135,11 @@ export const translations = {
     contactFormSuccess: 'Gràcies pel teu missatge! Ens posarem en contacte amb tu aviat.',
     slogan: 'Solucions professionals amb drons: neteja, inspecció, anàlisi i molt més.',
     heroSubtitle: 'Tecnologia aèria d\'avantguarda per als teus projectes.',
+    captchaNotVerified: 'Si us plau, verifica que no ets un robot.',
 
     // Services
     serviceLimpiezaVertical: 'Neteja vertical amb drons',
-    serviceLimpiezaVerticalDesc: 'Neteja de façanes i superfícies verticals de forma segura, ràpida i sense bastides. Ideal per a edificis de difícil accés, panells solars i altres estructures verticals.',
+    serviceLimpiezaVerticalDesc: 'Neteja de façanes i superfícies verticals de forma segura, ràpida i sense bastides. Ideal per a edificis de difícil accés, panells solars i altres estructures verticals. Oferim serveis de neteja vertical amb drons a Andorra i Catalunya.',
     serviceLimpiezaVerticalBenefitsTitle: 'Avantatges:',
     serviceLimpiezaVerticalBenefits1: 'Redueix significativament els riscos laborals associats a treballs en altura.',
     serviceLimpiezaVerticalBenefits2: 'Procés més ràpid i àgil en comparació amb mètodes convencionals.',
@@ -133,7 +151,7 @@ export const translations = {
     serviceLimpiezaVerticalExamples3: 'Neteja de sitges, tancs i altres estructures industrials verticals.',
 
     serviceFotogrametriaAerea: 'Fotogrametria aèria',
-    serviceFotogrametriaAereaDesc: 'La fotogrametria aèria amb drons permet capturar imatges superposades d\'alta resolució per crear models 3D detallats, mapes topogràfics precisos, ortofotos i núvols de punts. És una eina essencial per a la planificació, mesurament i anàlisi de terrenys i estructures en diversos sectors.',
+    serviceFotogrametriaAereaDesc: 'La fotogrametria aèria amb drons permet capturar imatges superposades d\'alta resolució per crear models 3D detallats, mapes topogràfics precisos, ortofotos i núvols de punts. És una eina essencial per a la planificació, mesurament i anàlisi de terrenys i estructures en diversos sectors. Realitzem fotogrametria aèria a Andorra i Catalunya.',
     serviceFotogrametriaAereaUsesTitle: 'Usos Comuns:',
     serviceFotogrametriaAereaUses1: 'Topografia i cartografia de terrenys per a projectes de construcció i enginyeria.',
     serviceFotogrametriaAereaUses2: 'Agricultura de precisió per a monitorització de cultius i anàlisi de salut vegetal.',
@@ -144,7 +162,7 @@ export const translations = {
     serviceFotogrametriaAereaUses7: 'Avaluació de parcel·les i desenvolupament urbanístic per a planificació municipal.',
 
     serviceInspeccionesIndustriales: 'Inspeccions industrials',
-    serviceInspeccionesIndustrialesDesc: 'Realitzem inspeccions detallades d\'infraestructures industrials i civils crítiques utilitzant drons equipats amb càmeres d\'alta resolució i sensors especialitzats. Això permet identificar fallades, desgast o danys sense necessitat d\'aturar les operacions, minimitzant temps d\'inactivitat i riscos per al personal.',
+    serviceInspeccionesIndustrialesDesc: 'Realitzem inspeccions detallades d\'infraestructures industrials i civils crítiques utilitzant drons equipats amb càmeres d\'alta resolució i sensors especialitzats. Això permet identificar fallades, desgast o danys sense necessitat d\'aturar les operacions, minimitzant temps d\'inactivitat i riscos per al personal. Oferim inspeccions industrials amb drons a Andorra i Catalunya.',
     serviceInspeccionesIndustrialesApplicationsTitle: 'Aplicacions:',
     serviceInspeccionesIndustrialesApplications1: 'Inspecció de torres elèctriques i línies de transmissió.',
     serviceInspeccionesIndustrialesApplications2: 'Revisió d\'aerogeneradors i parcs eòlics.',
@@ -154,7 +172,7 @@ export const translations = {
     serviceInspeccionesIndustrialesApplications6: 'Inspecció de cobertes, façanes i estructures de naus industrials.',
 
     serviceVueloLiDAR: 'Vol LiDAR',
-    serviceVueloLiDARDesc: 'Utilitzem tecnologia LiDAR (Light Detection and Ranging) muntada en drons per realitzar escanejos topogràfics d\'alta precisió. Aquesta tecnologia permet obtenir núvols de punts denses i detallades, fins i tot a través de vegetació, per crear models digitals del terreny (MDT) i models digitals de superfície (MDS) extremadament precisos.',
+    serviceVueloLiDARDesc: 'Utilitzem tecnologia LiDAR (Light Detection and Ranging) muntada en drons per realitzar escanejos topogràfics d\'alta precisió. Aquesta tecnologia permet obtenir núvols de punts denses i detallades, fins i tot a través de vegetació, per crear models digitals del terreny (MDT) i models digitals de superfície (MNS) extremadament precisos. Som especialistes en vol LiDAR a Andorra i Catalunya.',
     serviceVueloLiDARIdealForTitle: 'Ideal per a:',
     serviceVueloLiDARIdealFor1: 'Estudis forestals i gestió de recursos naturals.',
     serviceVueloLiDARIdealFor2: 'Planificació urbana i desenvolupament d\'infraestructures.',
@@ -162,12 +180,26 @@ export const translations = {
     serviceVueloLiDARIdealFor4: 'Anàlisi d\'inundacions i gestió de riscos.',
 
     serviceInspeccionesTermicas: 'Inspeccions tèrmiques',
-    serviceInspeccionesTermicasDesc: 'Utilitzem drons equipats amb càmeres tèrmiques d\'alta sensibilitat per detectar diferències de temperatura en superfícies i estructures. Això és crucial per identificar pèrdues d\'energia en edificis, localitzar fallades elèctriques en instal·lacions, detectar punts calents en naus industrials o monitoritzar la salut de panells solars.',
+    serviceInspeccionesTermicasDesc: 'Utilitzem drons equipats amb càmeres tèrmiques d\'alta sensibilitat per detectar diferències de temperatura en superfícies i estructures. Això és crucial per identificar pèrdues d\'energia en edificis, localitzar fallades elèctriques en instal·lacions, detectar punts calents en naus industrials o monitoritzar la salut de panells solars. Realitzem inspeccions tèrmiques amb drons a Andorra i Catalunya.',
     serviceInspeccionesTermicasApplicationsTitle: 'Aplicacions:',
     serviceInspeccionesTermicasApplications1: 'Inspecció de parcs solars per identificar panells defectuosos.',
     serviceInspeccionesTermicasApplications2: 'Revisió d\'instal·lacions elèctriques i subestacions.',
     serviceInspeccionesTermicasApplications3: 'Anàlisi d\'eficiència energètica en edificis.',
     serviceInspeccionesTermicasApplications4: 'Detecció de fugues en canonades o sistemes de calefacció.',
+
+    service3DModeling: 'Modelatge 3D per a Immobiliàries',
+    service3DModelingDesc: 'Creem models 3D detallats de terrenys i propietats utilitzant fotogrametria aèria. Aquests models poden ser integrats en llocs web immobiliaris, permetent als clients realitzar tours virtuals immersius de la parcel·la o propietat des de qualsevol lloc. Oferim modelatge 3D per a immobiliàries a Andorra i Catalunya.',
+    service3DModelingBenefitsTitle: 'Beneficis per a Immobiliàries:',
+    service3DModelingBenefits1: 'Ofereix una experiència de visualització única i atractiva per als clients.',
+    service3DModelingBenefits2: 'Permet als compradors potencials explorar la propietat a distància.',
+    service3DModelingBenefits3: 'Destaca les característiques del terreny i l\'entorn de manera interactiva.',
+    service3DModelingBenefits4: 'Millora la presentació de propietats en llistats online.',
+    service3DModelingIncludesTitle: 'Inclou:',
+    service3DModelingIncludes1: 'Captura de dades aèries amb drons.',
+    service3DModelingIncludes2: 'Processament de fotogrametria per generar el model 3D.',
+    service3DModelingIncludes3: 'Entrega de l\'arxiu 3D optimitzat per a web.',
+    service3DModelingIncludes4: 'Assessorament per a la integració en el teu lloc web.',
+    service3DModelingVideoPlaceholder: 'Aquí es mostrarà un vídeo del modelatge 3D.',
 
     // Technology Page
     djiDrones: 'Drons DJI Professionals',
@@ -207,10 +239,11 @@ export const translations = {
     contactFormSuccess: 'Thank you for your message! We will contact you shortly.',
     slogan: 'Professional drone solutions: cleaning, inspection, analysis and much more.',
     heroSubtitle: 'Cutting-edge aerial technology for your projects.',
+    captchaNotVerified: 'Please verify that you are not a robot.',
 
     // Services
     serviceLimpiezaVertical: 'Vertical cleaning with drones',
-    serviceLimpiezaVerticalDesc: 'Safe, fast, and scaffold-free cleaning of facades and vertical surfaces. Ideal for hard-to-reach buildings, solar panels, and other vertical structures.',
+    serviceLimpiezaVerticalDesc: 'Safe, fast, and scaffold-free cleaning of facades and vertical surfaces. Ideal for hard-to-reach buildings, solar panels, and other vertical structures. We offer vertical cleaning services with drones in Andorra and Catalonia.',
     serviceLimpiezaVerticalBenefitsTitle: 'Advantages:',
     serviceLimpiezaVerticalBenefits1: 'Significantly reduces occupational risks associated with working at height.',
     serviceLimpiezaVerticalBenefits2: 'Faster and more agile process compared to traditional methods.',
@@ -222,7 +255,7 @@ export const translations = {
     serviceLimpiezaVerticalExamples3: 'Cleaning of silos, tanks, and other vertical industrial structures.',
 
     serviceFotogrametriaAerea: 'Aerial photogrammetry',
-    serviceFotogrametriaAereaDesc: 'Aerial photogrammetry with drones allows capturing high-resolution overlapping images to create detailed 3D models, accurate topographic maps, orthophotos, and point clouds. It is an essential tool for planning, measurement, and analysis of terrain and structures in various sectors.',
+    serviceFotogrametriaAereaDesc: 'Aerial photogrammetry with drones allows capturing high-resolution overlapping images to create detailed 3D models, accurate topographic maps, orthophotos, and point clouds. It is an essential tool for planning, measurement, and analysis of terrain and structures in various sectors. We perform aerial photogrammetry in Andorra and Catalonia.',
     serviceFotogrametriaAereaUsesTitle: 'Common Uses:',
     serviceFotogrametriaAereaUses1: 'Topography and mapping of terrain for construction and engineering projects.',
     serviceFotogrametriaAereaUses2: 'Precision agriculture for crop monitoring and plant health analysis.',
@@ -233,7 +266,7 @@ export const translations = {
     serviceFotogrametriaAereaUses7: 'Evaluation of plots and urban development for municipal planning.',
 
     serviceInspeccionesIndustriales: 'Industrial inspections',
-    serviceInspeccionesIndustrialesDesc: 'We conduct detailed inspections of critical industrial and civil infrastructures using drones equipped with high-resolution cameras and specialized sensors. This allows identifying failures, wear, or damage without stopping operations, minimizing downtime and risks to personnel.',
+    serviceInspeccionesIndustrialesDesc: 'We conduct detailed inspections of critical industrial and civil infrastructures using drones equipped with high-resolution cameras and specialized sensors. This allows identifying failures, wear, or damage without stopping operations, minimizing downtime and risks to personnel. We offer industrial inspections with drones in Andorra and Catalonia.',
     serviceInspeccionesIndustrialesApplicationsTitle: 'Applications:',
     serviceInspeccionesIndustrialesApplications1: 'Inspection of power towers and transmission lines.',
     serviceInspeccionesIndustrialesApplications2: 'Review of wind turbines and wind farms.',
@@ -243,7 +276,7 @@ export const translations = {
     serviceInspeccionesIndustrialesApplications6: 'Inspection of roofs, facades, and structures of industrial buildings.',
 
     serviceVueloLiDAR: 'LiDAR Flight',
-    serviceVueloLiDARDesc: 'We use LiDAR (Light Detection and Ranging) technology mounted on drones to perform high-precision topographic scans. This technology allows obtaining dense and detailed point clouds, even through vegetation, to create extremely accurate digital terrain models (DTM) and digital surface models (DSM).',
+    serviceVueloLiDARDesc: 'We use LiDAR (Light Detection and Ranging) technology mounted on drones to perform high-precision topographic scans. This technology allows obtaining dense and detailed point clouds, even through vegetation, to create extremely accurate digital terrain models (DTM) and digital surface models (DSM). We are specialists in LiDAR flight in Andorra and Catalonia.',
     serviceVueloLiDARIdealForTitle: 'Ideal for:',
     serviceVueloLiDARIdealFor1: 'Forest studies and natural resource management.',
     serviceVueloLiDARIdealFor2: 'Urban planning and infrastructure development.',
@@ -251,12 +284,26 @@ export const translations = {
     serviceVueloLiDARIdealFor4: 'Flood analysis and risk management.',
 
     serviceInspeccionesTermicas: 'Thermal inspections',
-    serviceInspeccionesTermicasDesc: 'We use drones equipped with high-sensitivity thermal cameras to detect temperature differences on surfaces and structures. This is crucial for identifying energy losses in buildings, locating electrical faults in installations, detecting hot spots in industrial buildings, or monitoring the health of solar panels.',
+    serviceInspeccionesTermicasDesc: 'We use drones equipped with high-sensitivity thermal cameras to detect temperature differences on surfaces and structures. This is crucial for identifying energy losses in buildings, locating electrical faults in installations, detecting hot spots in industrial buildings, or monitoring the health of solar panels. We perform thermal inspections with drones in Andorra and Catalonia.',
     serviceInspeccionesTermicasApplicationsTitle: 'Applications:',
     serviceInspeccionesTermicasApplications1: 'Inspection of solar farms to identify faulty panels.',
     serviceInspeccionesTermicasApplications2: 'Review of electrical installations and substations.',
     serviceInspeccionesTermicasApplications3: 'Energy efficiency analysis in buildings.',
     serviceInspeccionesTermicasApplications4: 'Detection of leaks in pipes or heating systems.',
+
+    service3DModeling: '3D Modeling for Real Estate',
+    service3DModelingDesc: 'We create detailed 3D models of land and properties using aerial photogrammetry. These models can be integrated into real estate websites, allowing clients to take immersive virtual tours of the plot or property from anywhere. We offer 3D modeling for real estate in Andorra and Catalonia.',
+    service3DModelingBenefitsTitle: 'Benefits for Real Estate:',
+    service3DModelingBenefits1: 'Offers a unique and engaging visualization experience for clients.',
+    service3DModelingBenefits2: 'Allows potential buyers to explore the property remotely.',
+    service3DModelingBenefits3: 'Highlights terrain features and the environment interactively.',
+    service3DModelingBenefits4: 'Improves property presentation in online listings.',
+    service3DModelingIncludesTitle: 'Includes:',
+    service3DModelingIncludes1: 'Aerial data capture with drones.',
+    service3DModelingIncludes2: 'Photogrammetry processing to generate the 3D model.',
+    service3DModelingIncludes3: 'Delivery of the web-optimized 3D file.',
+    service3DModelingIncludes4: 'Consultation for integration into your website.',
+    service3DModelingVideoPlaceholder: 'A video of the 3D modeling will be shown here.',
 
     // Technology Page
     djiDrones: 'Professional DJI Drones',
@@ -296,10 +343,11 @@ export const translations = {
     contactFormSuccess: 'Merci pour votre message ! Nous vous contacterons sous peu.',
     slogan: 'Solutions professionnelles par drones : nettoyage, inspection, analyse et bien plus encore.',
     heroSubtitle: 'Technologie aérienne de pointe pour vos projets.',
+    captchaNotVerified: 'Veuillez vérifier que vous n\'êtes pas un robot.',
 
     // Services
     serviceLimpiezaVertical: 'Nettoyage vertical par drones',
-    serviceLimpiezaVerticalDesc: 'Nettoyage sûr, rapide et sans échafaudage des façades et surfaces verticales. Idéal pour les bâtiments difficiles d\'accès, les panneaux solaires et autres structures verticales.',
+    serviceLimpiezaVerticalDesc: 'Nettoyage sûr, rapide et sans échafaudage des façades et surfaces verticales. Idéal pour les bâtiments difficiles d\'accès, les panneaux solaires et autres structures verticales. Nous proposons des services de nettoyage vertical par drones à Andorre et en Catalogne.',
     serviceLimpiezaVerticalBenefitsTitle: 'Avantages :',
     serviceLimpiezaVerticalBenefits1: 'Réduit considérablement les risques professionnels associés aux travaux en hauteur.',
     serviceLimpiezaVerticalBenefits2: 'Processus plus rapide et plus agile par rapport aux méthodes traditionnelles.',
@@ -311,7 +359,7 @@ export const translations = {
     serviceLimpiezaVerticalExamples3: 'Nettoyage des silos, réservoirs et autres structures industrielles verticales.',
 
     serviceFotogrametriaAerea: 'Photogrammétrie aérienne',
-    serviceFotogrametriaAereaDesc: 'La photogrammétrie aérienne par drones permet de capturer des images superposées haute résolution pour créer des modèles 3D détaillés, des cartes topographiques précises, des orthophotos et des nuages de points. C\'est un outil essentiel pour la planification, la mesure et l\'analyse de terrains et de structures dans divers secteurs.',
+    serviceFotogrametriaAereaDesc: 'La photogrammétrie aérienne par drones permet de capturer des images superposées haute résolution pour créer des modèles 3D détaillés, des cartes topographiques précises, des orthophotos et des nuages de points. C\'est un outil essentiel pour la planification, la mesure et l\'analyse de terrains et de structures dans divers secteurs. Nous réalisons de la photogrammétrie aérienne à Andorre et en Catalogne.',
     serviceFotogrametriaAereaUsesTitle: 'Utilisations Courantes :',
     serviceFotogrametriaAereaUses1: 'Topographie et cartographie de terrains pour les projets de construction et d\'ingénierie.',
     serviceFotogrametriaAereaUses2: 'Agriculture de précision pour la surveillance des cultures et l\'analyse de la santé des plantes.',
@@ -322,37 +370,53 @@ export const translations = {
     serviceFotogrametriaAereaUses7: 'Évaluation de parcelles et développement urbain pour la planification municipale.',
 
     serviceInspeccionesIndustriales: 'Inspections industrielles',
-    serviceInspeccionesIndustrialesDesc: 'Nous effectuons des inspections détaillées des infrastructures industrielles et civiles critiques à l\'aide de drones équipés de caméras haute résolution et de capteurs spécialisés. Cela permet d\'identifier les défaillances, l\'usure ou les dommages sans arrêter les opérations, minimisant les temps d\'arrêt et les risques pour le personnel.',
+    serviceInspeccionesIndustrialesDesc: 'Nous effectuons des inspections détaillées des infrastructures industrielles et civiles critiques à l\'aide de drones équipés de caméras haute résolution et de capteurs spécialisés. Cela permet d\'identifier les défaillances, l\'usure ou les dommages sans arrêter les opérations, minimisant les temps d\'arrêt et les risques pour le personnel. Nous proposons des inspections industrielles par drones à Andorre et en Catalogne.',
     serviceInspeccionesIndustrialesApplicationsTitle: 'Applications :',
     serviceInspeccionesIndustrialesApplications1: 'Inspection des pylônes électriques et des lignes de transmission.',
     serviceInspeccionesIndustrialesApplications2: 'Examen des éoliennes et des parcs éoliens.',
-    serviceInspeccionesIndustrialesApplications3: 'Inspection des cheminées industrielles et des structures élevées.',
-    serviceInspeccionesIndustrialesApplications4: 'Évaluation des ponts, viaducs et autres infrastructures civiles.',
+    serviceInspeccionesIndustrialesApplications3: 'Inspección des cheminées industrielles et structures élevées.',
+    serviceInspeccionesIndustrialesApplications4: 'Évaluation des ponts, viaducts et autres infraestructures civiles.',
     serviceInspeccionesIndustrialesApplications5: 'Analyse des grands bâtiments et des structures architecturales complexes.',
-    serviceInspeccionesIndustrialesApplications6: 'Inspection des toits, façades et structures des bâtiments industriels.',
+    serviceInspeccionesIndustrialesApplications6: 'Inspección de cobertes, façades i estructures de naus industrials.',
 
     serviceVueloLiDAR: 'Vol LiDAR',
-    serviceVueloLiDARDesc: 'Nous utilisons la technologie LiDAR (Light Detection and Ranging) montée sur des drones pour effectuer des scans topographiques de haute précision. Cette technologie permet d\'obtenir des nuages de points denses et détaillés, même à travers la végétation, pour créer des modèles numériques de terrain (MNT) et des modèles numériques de surface (MNS) extrêmement précis.',
+    serviceVueloLiDARDesc: 'Nous utilisons la technologie LiDAR (Light Detection and Ranging) montée sur des drones pour effectuer des scans topographiques de haute précision. Cette technologie permet d\'obtenir des nuages de points denses et détaillés, même à travers la végétation, pour créer des modèles numériques de terrain (MNT) et des modèles numériques de surface (MNS) extrêmement précis. Nous sommes spécialistes du vol LiDAR à Andorre et en Catalogne.',
     serviceVueloLiDARIdealForTitle: 'Idéal pour :',
     serviceVueloLiDARIdealFor1: 'Études forestières et gestion des ressources naturelles.',
-    serviceVueloLiDARIdealFor2: 'Planification urbaine et développement d\'infrastructures.',
+    serviceVueloLiDARIdealFor2: 'Planification urbana y desarrollo de infraestructuras.',
     serviceVueloLiDARIdealFor3: 'Génie civil et projets de construction.',
     serviceVueloLiDARIdealFor4: 'Analyse des inondations et gestion des risques.',
 
     serviceInspeccionesTermicas: 'Inspections thermiques',
-    serviceInspeccionesTermicasDesc: 'Nous utilisons des drones équipés de caméras thermiques haute sensibilité pour détecter les différences de température sur les surfaces et les structures. Ceci est crucial pour identifier les pertes d\'énergie dans les bâtiments, localiser les défauts électriques dans les installations, détecter les points chauds dans les bâtiments industriels ou surveiller la santé des panneaux solaires.',
+    serviceInspeccionesTermicasDesc: 'Nous utilisons des drones équipés de caméras thermiques haute sensibilité pour détecter les différences de température sur les surfaces et les structures. Ceci est crucial pour identifier les pertes d\'énergie dans les bâtiments, localiser les défauts électriques dans les installations, détecter les points chauds dans les bâtiments industriels ou surveiller la santé des panneaux solaires. Nous réalisons des inspections thermiques par drones à Andorre et en Catalogne.',
     serviceInspeccionesTermicasApplicationsTitle: 'Applications :',
     serviceInspeccionesTermicasApplications1: 'Inspection des parcs solaires pour identifier les panneaux défectueux.',
     serviceInspeccionesTermicasApplications2: 'Examen des installations électriques et des sous-stations.',
     serviceInspeccionesTermicasApplications3: 'Analyse de l\'efficacité énergétique dans les bâtiments.',
     serviceInspeccionesTermicasApplications4: 'Détection des fuites dans les tuyaux ou les systèmes de chauffage.',
 
+    service3DModeling: 'Modélisation 3D pour l\'Immobilier',
+    service3DModelingDesc: 'Nous créons des modèles 3D détaillés de terrains et de propriétés à l\'aide de la photogrammétrie aérienne. Ces modèles peuvent être intégrés dans les sites web immobiliers, permettant aux clients de faire des visites virtuelles immersives de la parcelle ou de la propriété depuis n\'importe où. Nous proposons de la modélisation 3D pour l\'immobilier à Andorre et en Catalogne.',
+    service3DModelingBenefitsTitle: 'Avantages pour l\'Immobilier :',
+    service3DModelingBenefits1: 'Offre une expérience de visualisation unique et attrayante pour les clients.',
+    service3DModelingBenefits2: 'Permet aux acheteurs potentiels d\'explorer la propriété à distance.',
+    service3DModelingBenefits3: 'Met en évidence les caractéristiques du terrain et de l\'environnement de manière interactive.',
+    service3DModelingBenefits4: 'Améliore la présentation des propriétés dans les annonces en ligne.',
+    service3DModelingIncludesTitle: 'Comprend :',
+    service3DModelingIncludes1: 'Capture de données aériennes par drones.',
+    service3DModelingIncludes2: 'Traitement de photogrammétrie pour générer le modèle 3D.',
+    service3DModelingIncludes3: 'Livraison du fichier 3D optimisé pour le web.',
+    service3DModelingIncludes4: 'Conseils pour l\'intégration sur votre site web.',
+    service3DModelingVideoPlaceholder: 'Une vidéo de la modélisation 3D sera affichée ici.',
+
     // Technology Page
     djiDrones: 'Drones DJI Professionnels',
     djiDronesDesc: 'Nous disposons d\'une flotte de drones DJI de pointe, reconnus mondialement pour leur fiabilité, leurs performances et leur capacité d\'adaptation à diverses conditions et missions. Des modèles compacts pour des inspections détaillées aux plateformes robustes pour des charges utiles lourdes.',
     advancedSensors: 'Capteurs Avancés',
-    advancedSensorsDesc: 'Nous équipons nos drones d\'une variété de capteurs de haute précision. Les capteurs LiDAR permettent des scans 3D détaillés du terrain et des structures. Les caméras RGB capturent des images haute résolution pour la photogrammétrie et la cartographie. Les caméras thermiques détectent les différences de température pour les inspections énergétiques et de sécurité.',
+    advancedSensorsDesc: 'Nous équipons nos drons avec une variété de capteurs de haute précision. Les capteurs LiDAR permettent des scans 3D détaillés du terrain et des structures. Les caméras RGB capturent des images haute résolution pour la photogramétrie et la cartographie. Les caméras thermiques détectent les différences de température pour les inspections énergétiques et de sécurité.',
     specializedSoftware: 'Logiciels Spécialisés pour l\'Analyse de Données',
-    specializedSoftwareDesc: 'Les informations collectées par nos drones sont traitées à l\'aide de logiciels spécialisés leaders de l\'industrie. Cela nous permet de générer des modèles 3D précis, des cartes topographiques, des orthophotos, des rapports thermiques détaillés et des analyses de données complexes pour vous fournir des informations précieuses et des solutions sur mesure.',
+    specializedSoftwareDesc: 'Les informations collectées par nos drons sont traitées à l\'aide de logiciels spécialisés leaders de l\'industrie. Cela nous permet de générer des modèles 3D précis, des cartes topographiques, des orthophotos, des rapports thermiques détaillés et des analyses de données complexes pour vous fournir des informations précieuses et des solutions sur mesure.',
   },
 };
+
+// DONE
