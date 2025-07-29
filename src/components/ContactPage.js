@@ -156,7 +156,7 @@ const ContactPage = ({ currentLanguage }) => {
             <div className="flex justify-center mt-4 space-x-4">
               {/* WhatsApp Icon */}
               <a href="whatsapp://send?phone=376397293" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600">
-                <img src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0u66rXhYvblOpQY7AJg0nTmsBhyINFZ6E3XCU" alt="WhatsApp Icon" className="w-8 h-8" /> {/* Imagen de WhatsApp actualizada */}
+                <img src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0u66rXhYvblOpQY7AJg0nTmsBhyINFZ6E3XCU" alt="WhatsApp Icon" className="w-8 h-8" loading="lazy" /> {/* Imagen de WhatsApp actualizada */}
               </a>
               {/* Social Media Icons Placeholder */}
               {/* <a href="#" className="text-gray-600 hover:text-gray-900">

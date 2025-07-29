@@ -29,7 +29,7 @@ const TechnologyPage = ({ currentLanguage }) => {
         {technologies.map((tech, index) => (
           <div key={index} className={`flex flex-col md:flex-row items-center mb-16 ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
             <div className="md:w-1/2 mb-8 md:mb-0 md:px-8">
-              <img src={tech.image} alt={tech.title} className="rounded-lg shadow-lg w-full h-auto object-cover" />
+              <img src={tech.image} alt={tech.title} className="rounded-lg shadow-lg w-full h-auto object-cover" loading="lazy"/>
             </div>
             <div className="md:w-1/2 md:px-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-4">{tech.title}</h2>

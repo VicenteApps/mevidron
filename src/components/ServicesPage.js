@@ -20,7 +20,7 @@ const ServicesPage = ({ setCurrentPage, currentLanguage }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div key={service.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <img src={service.image} alt={service.title} className="w-full h-48 object-cover" />
+              <img src={service.image} alt={service.title} className="w-full h-48 object-cover" loading="lazy"/>
               <div className="p-6">
                 <h2 className="text-xl font-semibold text-gray-800 mb-3">{service.title}</h2>
                 <p className="text-gray-600 text-base mb-4">{service.description}</p>

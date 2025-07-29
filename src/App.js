@@ -19,6 +19,7 @@ import ServiceVueloLiDARPage from './components/ServiceVueloLiDARPage';
 import ServiceInspeccionesTermicasPage from './components/ServiceInspeccionesTermicasPage';
 import Service3DModelingPage from './components/Service3DModelingPage';
 import { translations } from './utils/translations'; // Importar traducciones
+import { Helmet } from 'react-helmet-async';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
@@ -121,8 +122,51 @@ const App = () => {
     }
   };
 
+  const getHelmetMeta = () => {
+    const t = translations[currentLanguage] || translations['ca'];
+    const baseTitle = 'MeviDron';
+    const baseUrl = 'https://www.mevidron.com'; // ✅ Cambia esto
+  
+    switch (currentPage) {
+      case 'home':
+        return (
+          <Helmet>
+            <title>{`${baseTitle} - ${t.home}`}</title>
+            <meta name="description" content="Inicio de MeviDron, soluciones LiDAR, inspecciones industriales y más." />
+            <link rel="canonical" href={`${baseUrl}/`} />
+          </Helmet>
+        );
+      case 'contact':
+        return (
+          <Helmet>
+            <title>{`${baseTitle} - ${t.contact}`}</title>
+            <meta name="description" content="Contáctanos para proyectos LiDAR, inspecciones térmicas e industriales." />
+            <link rel="canonical" href={`${baseUrl}/contacto`} />
+          </Helmet>
+        );
+      case 'services':
+        return (
+          <Helmet>
+            <title>{`${baseTitle} - ${t.services}`}</title>
+            <meta name="description" content="Servicios que ofrece MeviDron: LiDAR, fotogrametría, inspecciones y más." />
+            <link rel="canonical" href={`${baseUrl}/servicios`} />
+          </Helmet>
+        );
+      // Puedes añadir más páginas aquí
+      default:
+        return (
+          <Helmet>
+            <title>{baseTitle}</title>
+            <meta name="description" content="MeviDron: soluciones geoespaciales avanzadas con tecnología de vanguardia." />
+          </Helmet>
+        );
+    }
+  };
+  
+
   return (
     <div className="font-sans antialiased">
+      {getHelmetMeta()}
       <LayoutHeader setCurrentPage={setCurrentPage} currentLanguage={currentLanguage} setCurrentLanguage={setCurrentLanguage} />
       <main>
         {renderPage()}

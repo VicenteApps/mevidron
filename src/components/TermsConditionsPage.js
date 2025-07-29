@@ -10,7 +10,7 @@ const TermsConditionsPage = ({ currentLanguage }) => {
         <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">{t.termsConditions}</h1>
         <div className="prose max-w-none text-gray-700">
           <p>
-            Bienvenido a nuestro sitio web. Si continúa navegando y utilizando este sitio web, acepta cumplir y estar sujeto a los siguientes términos y condiciones de uso, que junto con nuestra política de privacidad rigen la relación de [Nombre de la Empresa] con usted en relación con este sitio web.
+            Bienvenido a nuestro sitio web. Si continúa navegando y utilizando este sitio web, acepta cumplir y estar sujeto a los siguientes términos y condiciones de uso, que junto con nuestra política de privacidad rigen la relación de  Mevi Serveis S.L con usted en relación con este sitio web.
           </p>
           <h2>Uso del Sitio Web</h2>
           <p>
@@ -29,7 +29,7 @@ const TermsConditionsPage = ({ currentLanguage }) => {
           </p>
           <h2>Limitación de Responsabilidad</h2>
           <p>
-            En ningún caso [Nombre de la Empresa] será responsable de ningún daño directo, indirecto, incidental, especial o consecuente que surja del uso o la imposibilidad de usar este sitio web.
+            En ningún caso  Mevi Serveis S.L será responsable de ningún daño directo, indirecto, incidental, especial o consecuente que surja del uso o la imposibilidad de usar este sitio web.
           </p>
           {/* Add more terms and conditions text as needed */}
         </div>

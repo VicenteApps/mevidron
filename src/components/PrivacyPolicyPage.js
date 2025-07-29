@@ -10,7 +10,7 @@ const PrivacyPolicyPage = ({ currentLanguage }) => {
         <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">{t.privacyPolicy}</h1>
         <div className="prose max-w-none text-gray-700">
           <p>
-            La presente Política de Privacidad describe cómo [Nombre de la Empresa] recopila, utiliza y protege la información personal que usted nos proporciona a través de este sitio web.
+            La presente Política de Privacidad describe cómo  Mevi Serveis S.L recopila, utiliza y protege la información personal que usted nos proporciona a través de este sitio web.
           </p>
           <h2>Recopilación de Información Personal</h2>
           <p>

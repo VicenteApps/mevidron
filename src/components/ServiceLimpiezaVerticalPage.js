@@ -10,7 +10,7 @@ const ServiceLimpiezaVerticalPage = ({ currentLanguage }) => {
         <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">{t.serviceLimpiezaVerticalTitle}</h1>
         <div className="flex flex-col md:flex-row items-center mb-16">
           <div className="md:w-1/2 mb-8 md:mb-0 md:px-8">
-            <img src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0Yj1Lc5cHLxysUGcrlHAMdQ0Ba6XFOPIJgkW1" alt={t.serviceLimpiezaVerticalTitle} className="rounded-lg shadow-lg w-full h-auto object-cover" />
+            <img src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0Yj1Lc5cHLxysUGcrlHAMdQ0Ba6XFOPIJgkW1" alt={t.serviceLimpiezaVerticalTitle} className="rounded-lg shadow-lg w-full h-auto object-cover" loading="lazy"/>
           </div>
           <div className="md:w-1/2 md:px-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">{t.serviceLimpiezaVerticalTitle}</h2>

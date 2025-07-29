@@ -28,6 +28,7 @@ const LayoutHeader = ({ currentPage, setCurrentPage, currentLanguage, setCurrent
               src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc01E0JVNcZ9EqsBCgLaIcfUlJ8T30Vwty5SXnr" // Logo de la empresa
               alt="Logo MeviDron"
               className="h-12 md:h-14 transition-transform hover:scale-105" // Aumentado el tamaño del logo
+              loading="lazy"
             />
           </a>
         </div>

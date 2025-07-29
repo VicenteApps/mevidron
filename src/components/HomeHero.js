@@ -26,7 +26,7 @@ const HomeHero = ({ setCurrentPage, currentLanguage }) => {
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-600 transition-colors shadow-lg inline-flex items-center"
           >
-            <img src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0u66rXhYvblOpQY7AJg0nTmsBhyINFZ6E3XCU" alt="WhatsApp Icon" className="w-6 h-6 mr-2" /> {/* Imagen de WhatsApp actualizada */}
+            <img src="https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc0u66rXhYvblOpQY7AJg0nTmsBhyINFZ6E3XCU" alt="WhatsApp Icon" className="w-6 h-6 mr-2" loading="lazy" /> {/* Imagen de WhatsApp actualizada */}
             {t.whatsappContact}
           </a>
         </div>
